@@ -18,14 +18,14 @@
 }
 .labelanh {
     width: 132px;
-    height: 41px;
+    height: 40px;
     border-right: 1px solid grey;
     /* /* align-items: center; */
     justify-content: center;
     text-align: center;
 }
 .labelten {
-    width: 128px;
+    width: 130px;
     height: 40px;
     border-right: 1px solid grey;
     /* align-items: center;
@@ -86,7 +86,7 @@
 }
 .anh {
     width: 132px;
-    height: px;
+    height: 110px;
     border-right: 1px solid grey;
     /* align-items: center; */
     justify-content: center;

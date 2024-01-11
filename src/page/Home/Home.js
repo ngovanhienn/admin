@@ -11,7 +11,7 @@ const Home = ({ children }) => {
                     <Siderbar checkClick />
                 </div>
                 {/* <h1>Đây là trang Admin</h1> */}
-                <div className="rightcontainer">{children}</div>
+                <div className="rightcontainer1">{children}</div>
             </div>
         </div>
     );

@@ -4,4 +4,9 @@
     /* margin: 10px; */
     padding-bottom: 5px;
     border-bottom: 1px solid grey;
+    width: 975px;
+}
+.rightcontainer {
+    background-color: bisque;
+    width: 975px;
 }

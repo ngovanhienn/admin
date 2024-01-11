@@ -18,7 +18,7 @@
     text-align: center;
 }
 .labelanhcate {
-    width: 150px;
+    width: 152px;
     height: 40px;
     border-right: 1px solid grey;
     justify-content: center;
@@ -37,7 +37,7 @@
 
 .containerviewcate {
     /* width: 850px; */
-    width: 1020px;
+    width: 1015px;
     height: 110px;
     display: flex;
     justify-content: center;
@@ -67,11 +67,12 @@
 }
 .anhcate {
     width: 152px;
-    height: 110px;
+    height: 106px;
     border-right: 1px solid grey;
     /* align-items: center; */
     justify-content: center;
     text-align: center;
+    /* margin: 10; */
 }
 .tencate {
     width: 380px;

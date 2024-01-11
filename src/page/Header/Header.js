@@ -8,14 +8,14 @@ const Header = () => {
         <div className="containerHeader">
             <div className="topcontainer">
                 {/* <div className="topleft"> */}
-                <NavLink to={config.routes.home}>
+                {/* <NavLink to={config.routes.home}>
                     <h1>ATQ</h1>
-                </NavLink>
-                <h1>ADMIN-DASHBOARD</h1>
+                </NavLink> */}
+                <h1>SHOP CÂY CẢNH-ADMIN</h1>
 
-                <button>
+                {/* <button>
                     <img className="imgprofile" src={require('../image/profile (1).png')} alt="profile" />
-                </button>
+                </button> */}
                 {/* </div> */}
             </div>
         </div>

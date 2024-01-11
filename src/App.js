@@ -48,13 +48,17 @@ const App = () => {
              <Route path="/home" element={<Home />} />
             <Route path="/user" element={<User />} />
             <Route path="/adduser" element={<AddUser />} /> 
-           {/* {/*  <Route path="/product" element={<Product />} />
-            <Route path="/addproduct" element={<AddProduct />} />
+            <Route path="/edituser" element={<EditUser />} /> 
             <Route path="/category" element={<Category />} />
             <Route path="addcategory" element={<AddCategory />} />
             <Route path="Viewcategory" element={<Category />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/addproduct" element={<AddProduct />} />
+            <Route path="/cart" element={<Cart/>} />
+           {/* {/*  
+           
             <Route path="/cart" element={<Cart />} />
-            <Route path="/edituser" element={<EditUser />} /> 
+            
             <Route path="/signup" element={<Register />} />  */}
         </Routes>
     );

@@ -1,7 +1,7 @@
 .containerSidbar {
-    min-height: 700px;
+    min-height: 600px;
     margin-top: 5px;
-    /* background-color: aqua; */
+    /* background-color: #A8E6E6; */
     border-right: 1px solid grey;
-    width: 500px;
+    width: 246px;
 }
