@@ -44,24 +44,24 @@ const Cart = () => {
                 // to
             />
             <div>
-                <Table striped bordered hover>
-                    <thead>
-                        <tr>
-                            <th>STT</th>
-                            <th>Username</th>
-                            <th>Tên người nhận</th>
-                            <th>Số điện thoại</th>
-                            <th>Địa chỉ</th>
-                            <th>Ngày đặt</th>
-                            <th>Tổng tiền</th>
-                            <th>Trạng thái</th>
-                            <th>Chức năng</th>
+                <Table striped bordered hover >
+                    <thead >
+                        <tr >
+                            <th style={{ textAlign: 'center' }}>STT</th>
+                            <th style={{ textAlign: 'center' }}>Username</th>
+                            <th style={{ textAlign: 'center' }}>Tên người nhận</th>
+                            <th style={{ textAlign: 'center' }}>Số điện thoại</th>
+                            <th style={{ textAlign: 'center' }}>Địa chỉ</th>
+                            <th style={{ textAlign: 'center' }}>Ngày đặt</th>
+                            <th style={{ textAlign: 'center' }}>Tổng tiền</th>
+                            <th style={{ textAlign: 'center' }}>Trạng thái</th>
+                            <th style={{ textAlign: 'center' }}>Chức năng</th>
                         </tr>
                     </thead>
 
                     {order.map((orders) => (
                         <tbody key={orders.id}>
-                            <tr>
+                            <tr >
                                 <td>{orders.stt} </td>
                                 <td>{orders.username}</td>
                                 <td>{orders.tennguoinhan}</td>
@@ -70,7 +70,7 @@ const Cart = () => {
                                 <td>{orders.ngaydat.toDate().toLocaleDateString()}</td>
                                 {/* <td>ngay thang</td> */}
                                 <td>{orders.tongtien}</td>
-                                <td >
+                                <td style={{ textAlign: 'center' }}>
                                     <div>
                                         {orders.state == 'Đang giao hàng' ? (
                                             <div
@@ -80,7 +80,7 @@ const Cart = () => {
                                                     
                                                 }}
                                             >
-                                                <span style={{ color: '#fff', marginLeft: 30, fontSize: 24 }}>
+                                                <span style={{ color: '#fff',  fontSize: 24 }}>
                                                     {orders.state}
                                                 </span>
                                             </div>
