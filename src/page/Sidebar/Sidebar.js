@@ -25,6 +25,9 @@ const Siderbar = () => {
             <NavLink to={config.routes.cart} style={{ textDecoration: 'none' }}>
                 <Button title="Đơn hàng" onClick={handleCLick} />
             </NavLink>
+            <NavLink to={config.routes.Statistical} style={{ textDecoration: 'none' }}>
+                <Button title="Thống kê" onClick={handleCLick} />
+            </NavLink>
         </div>
     );
 };

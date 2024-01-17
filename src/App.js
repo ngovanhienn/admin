@@ -38,6 +38,7 @@ import AddProduct from './page/admin/product/Addproduct/Addproduct';
 import EditUser from './page/admin/user/UpdateUser/Updateuser';
 import Category from './page/Category/ViewCategory/Category';
 import AddCategory from './page/Category/AddCategory/Addcategory';
+import Statistical from './page/admin/statistical/Statistical';
 // import Register from './Screen/registerandlogin/Register/Register';
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/product" element={<Product />} />
             <Route path="/addproduct" element={<AddProduct />} />
             <Route path="/cart" element={<Cart/>} />
+            <Route path="/Statistical" element={<Statistical/>} />
            {/* {/*  
            
             <Route path="/cart" element={<Cart />} />

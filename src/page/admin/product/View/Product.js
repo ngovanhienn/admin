@@ -185,11 +185,7 @@ const Product = () => {
                     <NavLink to={config.routes.addproduct}>
                         <button className="btnsearch">Thêm</button>
                     </NavLink>
-                    {/* <button className="btnsearch" onClick={() => openModal()}>
-                        Thêm
-                    </button> */}
-                    {/* <AddUser /> */}
-                    {/* <AddProduct isOpen={modalIsOpen} onRequestClose={closeModal} /> */}
+                   
                 </div>
                 <div>
                     <div
@@ -232,25 +228,25 @@ const Product = () => {
                                             <h3>{products.stt}</h3>
                                         </div>
                                         <div className={stylepro.anh}>
-                                            <img src={products.image} style={{ width: 128, height: 105, marginTop: 2 }} alt="" />
+                                            <img src={products.image} style={{ width: 124, height: 105, marginTop: 2 }} alt="" />
                                         </div>
 
                                         <div className={stylepro.ten}>
-                                            <h3>{products.name}</h3>
+                                            <h3 style={{fontSize:25}}>{products.name}</h3>
                                         </div>
                                         <div className={stylepro.loai}>
-                                            <h3>{products.category}</h3>
+                                            <h3 style={{fontSize:25}}>{products.category}</h3>
                                         </div>
                                         {/* </div> */}
                                         {/* <div style={{ flex: '3' }}> */}
 
                                         <div className={stylepro.mota}>
-                                            <h3>{products.descriptsion}</h3>
+                                            <h3 style={{fontSize:18}}>{products.descriptsion}</h3>
                                         </div>
                                         {/* // </div> */}
                                         {/* <div style={{ flex: '2' }}> */}
                                         <div className={stylepro.gia}>
-                                            <h3>{products.price} VND</h3>
+                                            <h3 style={{fontSize:22, marginTop:40 }}>{products.price} VND</h3>
                                         </div>
                                     </div>
                                     <div

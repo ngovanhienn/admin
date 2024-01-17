@@ -146,6 +146,7 @@ const Category = () => {
                             <div className={styles.labeltencate}>
                                 <h3>Tên loại sản phẩm</h3>
                             </div>
+                            
                         </div>
                         {category.map((categories, index) => (
                             <div key={index}>
@@ -171,6 +172,7 @@ const Category = () => {
                                             justifyContent: 'center',
                                         }}
                                     >
+                                     
                                         <button onClick={() => deleteCategory(categories.id)}>
                                             <span>xóa</span>
                                         </button>

@@ -37,7 +37,7 @@
 
 .containerviewcate {
     /* width: 850px; */
-    width: 1015px;
+    max-width: 1015px;
     height: 110px;
     display: flex;
     justify-content: center;

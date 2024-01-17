@@ -115,19 +115,18 @@ const User = () => {
                     {user.map((users, index) => (
                         <tbody key={users.id}>
                             <tr >
-                                <td>{users.email} </td>
-                                <td>{users.username}</td>
-                                
-                               
-                                <td >
-                                    <div >
+                                <td style={{ textAlign: 'center' }}>{users.email} </td>
+                                <td style={{ textAlign: 'center' }}>{users.username}</td>
+
+                                <td style={{ textAlign: 'center' }}>
+                                    
                                         <button
                                             className="btnsearch"
                                              onClick={() => deleteUserID(users.id)}
                                         >
                                             Xóa
                                         </button>
-                                    </div>
+                                    
                                 </td>
                             </tr>
                         </tbody>

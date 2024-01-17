@@ -9,6 +9,7 @@ const routes = {
     edituser: '/edituser',
     addproduct: '/addproduct',
     addcategory: '/addcategory',
+    Statistical: '/Statistical',
 };
 
 export default routes;

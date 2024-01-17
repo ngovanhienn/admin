@@ -1,18 +1,19 @@
 .Home {
     display: flex;
     flex-direction: column;
-    width: 1250px;
+    width: 1220px;
 }
 .containerHome {
     display: flex;
     flex-direction: row;
-    width: 1215px;
+    width: 1170px;
 }
 .rightcontainer {
     background-color: #A8E6E6;
-    max-width: 1215px;
+    max-width: 972px;
+  
 }
 .rightcontainer1 {
-    background-color: #A8E6E6;
-    max-width: 1215px;
+    background-color: #d6efef;
+    max-width: 970px;
 }
